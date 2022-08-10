@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>AltSchool Assignment</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#about-me" class="nav-link">HOME</a>
+            <a href="#contact-page" class="nav-link">CONTACT</a>
+            <a href="#register-page" class="nav-link">REGISTER</a>
+            <a href="#login-page" class="nav-link">LOGIN</a>
+        </nav>
+    </header>
+
+    <!-- About Me -->
+    <section id="about-me" class="about-me">
+        <h1>About Me</h1>
+        <img src="./img/photo.jpg" alt="my picture" class="intro-img">
+        <p>I am Edikan Ekanem.</p>
+        <p>I am a highly numerate Computer Science graduate from Babcock university with 1st year experience in Front End Development.</p>
+        <p>My goal for this diploma course is to improve my technical skills. In the face of an unpredictably evolving world, I want to create systems (apps, websites) that are efficient,
+        dependable, and safe.</p>
+        
+        <h1>Educational Background</h1>
+        <ul>
+            <li>Babcock University, Ilishan Remo, Ogun State.
+                BSc (Hons) Computer Science.
+                Second Class Upper, 2016 - 2020.</li>
+            <li>Nigerian Navy Secondary School, Akpabuyo, Cross River State.
+                West African Senior School Certificate, 2010 - 2016.</li>
+        </ul>
+
+        <h1>Job Experience</h2>
+            <ul>
+                <li>Greystone Partners Limited, Lekki Phase 1, Lagos State.
+                    Front End Developer (NYSC).
+                    IT Department, March 2021 - March 2022.</li>
+                <li>ICE-Solution Company Ltd, Uyo, Akwa-Ibom State.
+                    IT Intern, January 2019 - July 2019.</li>
+            </ul>
+
+        <h1>Hobbies & Other Skills</h2>
+        <p>When I am not busy writing computer codes, I use my voice to entertain, narrate, or market products for commercials, animation, audiobooks and videos. I draw amazingly too.</p>
+
+        <p class="chat"> Send A Message. <a href="#contact-page" class="button"> Let's Chat! </a></p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-page" class="contact-page">
+        <h1>Contact Me</h1>
+        <div class="border"></div>
+        <form id="form1" class="form1">
+            <label for="name" class="label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" class="input" required>
+
+            <label for="email" class="label">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" class="input" required>
+
+            <label for="message" class="label">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Have Some Questions? Lets Talk!" class="input" required></textarea>
+
+            <label for="priority" class="label">Priority:</label>
+            <select id="priority" name="priority" class="input">
+                <option value="Urgent">Urgent</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+
+            <button type="submit" form="form1" value="Submit" class="contactbutton">Submit</button>
+            <p> Not Registered for Newsletter? <a href="#register-page" class="button"> Register! </a></p>
+        </form>
+    </section>
+
+    <!-- Register -->
+    <section id="register-page" class="register-page">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <form id="form2" class="form2">
+                <hr>
+                <label for="firstname" class="label">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" class="input" required>
+        
+                <label for="lastname" class="label">Last Name:</label>
+                <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" class="input" required>
+        
+                <label for="phonenumber" class="label">Phone Number:</label>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter Phone Number" class="input" required>
+
+                <label for="gender" class="label">Gender:</label>
+                <select id="gender" name="gender" class="input">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Non Binary">Non Binary</option>
+                    <option value="Prefer Not To Say">Prefer Not To Say</option>
+                </select>
+
+                <label for="country" class="label">Country:</label>
+                <input type="text" placeholder="Enter Country" name="country" id="country" class="input" required>
+
+                <label for="state" class="label">State/Province:</label>
+                <input type="text" name="state" id="state" placeholder="Enter State" class="input" required>
+
+                <label for="username" class="label">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter Username" class="input" required>
+
+                <label for="password" class="label">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" class="input" required>
+
+                <label for="confirmpassword" class="label">Confirm Password:</label>
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password" class="input" required>
+                <hr>
+        
+                <p>By creating an account you agree to our <b>Terms & Privacy</b>.</p>
+                <button type="submit" form="form2" class="registerbutton" value="Register">Register</button>
+        
+                <p> Already have an account? <a href="#login-page" class="button"> Sign in. </a></p>
+        </form>
+    </section>
+    
+    <!-- Login -->
+    <section id="login-page" class="login-page">
+        <h1>Login</h1>
+        <div class="border"></div>
+        <form id="form3" class="form3">
+            <label for="username2" class="label">Username:</label>
+            <input type="text" id="username2" name="username2" placeholder="Your Username" class="input" required>
+        
+            <label for="password2" class="label">Password:</label>
+            <input type="password" name="password2" id="password2" placeholder="Your Password" class="input" required>
+
+            <button type="submit" form="form3" value="Signin" class="loginbutton">Sign In</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+       <h4><a href="./calculator.html">Click here to see my amazing calculator</a></h4>
+    </footer>
+</body>
+</html>

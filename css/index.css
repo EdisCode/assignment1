@@ -1,0 +1,231 @@
+/* General */
+* {
+    background-color: #fef2f2;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 2em 2em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nav a {
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: #e4c2c1;    
+}
+
+.nav a:active{
+    background-color: #e4c2c1;
+    color: #fef2f2;
+}
+
+/* About Me */
+.about-me {
+    position: relative;
+    border-top: 1px solid #e4c2c1;
+}
+
+.about-me h1{
+    background-color: #e4c2c1;
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    max-height: fit-content;
+    float: left;
+    padding: 2em;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.chat {
+    color: #b6666f;
+    text-align: center;
+}
+
+/* Contact */
+.contact-page {
+    position: relative;
+    justify-content: center;
+    border-top: 1px solid #e4c2c1;
+}
+
+.contact-page h1 {
+    text-align: center;
+}
+
+.border {
+    background:  #e4c2c1;
+    width: 100px;
+    height: 5px;
+    margin: 20px auto;
+}
+
+.form1 {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid #e4c2c1;
+    outline: #e4c2c1;
+}
+
+textarea.input {
+    resize: none;
+}
+
+.contactbutton {
+    /* float: right; */
+    cursor: pointer;
+    background-color: #e4c2c1;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 10px;
+    margin-left: 75%;
+}
+
+.contactbutton:hover {
+    background-color: #b6666f;
+}
+
+.contact-page p {
+    color: #b6666f;
+    text-align: center;
+}
+
+/* Register */
+.register-page {
+    position: relative;
+    justify-content: center;
+}
+
+.register-page h1 {
+    background-color: #e4c2c1;
+    text-align: center;
+}
+
+.register-page p {
+    color: #b6666f;
+    text-align: center;
+}
+
+hr {
+    border: solid #e4c2c1;
+}
+
+.form2 {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.registerbutton {
+    cursor: pointer;
+    background-color: #e4c2c1;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 10px;
+    margin-left: 38%;
+}
+
+.registerbutton:hover {
+    background-color: #b6666f;
+}
+
+.button {
+    text-decoration: none;
+    color: #e4c2c1;
+}
+
+.button:hover {
+    color: #b6666f;
+}
+
+/* Login */
+.login-page {
+    position: relative;
+    justify-content: center;
+    border-top: 1px solid #e4c2c1;
+}
+
+.login-page h1 {
+    text-align: center;
+}
+
+.form3 {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.loginbutton {
+    float: right;
+    cursor: pointer;
+    background-color: #e4c2c1;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 10px;
+}
+
+.loginbutton:hover {
+    background-color: #b6666f;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    padding: 8em 2em;
+    text-align: center;
+}
+
+.footer a {
+    background-color: #e4c2c1;
+    text-decoration: none;
+    color: #b6666f;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.footer a:active {
+    color: #fef2f2;
+}

@@ -1,0 +1,95 @@
+/* General */
+* {
+    background-color: #fef2f2;
+    box-sizing: border-box;
+}
+
+h1 {
+
+    background-color: #e4c2c1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Table */
+table {
+    margin: auto;
+    background-color: #e4c2c1;
+    width: 300px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+input:hover {
+    border: 0 solid #000;
+    background-color: #e4c2c1;
+    cursor: pointer;
+}
+
+input:active {
+    top: 4px;
+    border: 0 solid #000;
+    background-color: #fff;
+}
+
+#display {
+    width: 95%;
+    font-size: 26px;
+    text-align: right;
+    padding-right: 10px;
+    background-color: #b6666f;
+    color: #fef2f2;
+}
+
+#clear {
+    display: block;
+    background-color: #b6666f;
+    color: #fef2f2;
+}
+
+#clear:hover {
+    border: 0 solid #000;
+    background-color: #e4c2c1;
+    cursor: pointer;
+    color: black;
+}
+
+#clear:active {
+top: 4px;
+border: 0 solid #000;
+background-color: #fff;
+}
+
+/* Second Calculator Link */
+.footer {
+    position: relative;
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.footer a {
+    background-color: #e4c2c1;
+    text-decoration: none;
+    color: #b6666f;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.footer a:active {
+    color: #fef2f2;
+}
